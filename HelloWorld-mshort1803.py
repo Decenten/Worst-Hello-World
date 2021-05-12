@@ -1,0 +1,12 @@
+hello = ['a','b','c','d','e','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+print(hello[6], end = '')
+print(hello[4], end = '')
+print(hello[10], end = '')
+print(hello[10], end = '')
+print(hello[13], end = '')
+print(" ", end = '')
+print(hello[21], end = '')
+print(hello[13], end = '')
+print(hello[16], end = '')
+print(hello[10], end = '')
+print(hello[3])

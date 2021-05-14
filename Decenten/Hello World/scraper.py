@@ -29,7 +29,7 @@ def scrapeWikiArticle(url):
 			for code1 in codes1:
 				code1 = code1.get_text()
 				scriptRunner.scriptRunner.RunScript(code1)
-				if code1.find("Hello") == -1:
+				if code1.find("Hello, World") == -1:
 					continue
 				else:
 					exit(0)
@@ -37,7 +37,7 @@ def scrapeWikiArticle(url):
 			for code2 in codes2:
 				code2 = code2.get_text()
 				scriptRunner.scriptRunner.RunScript(code2)
-				if code2.find("Hello") == -1:
+				if code2.find("Hello, world") == -1:
 					continue
 				else:
 					exit(0)
